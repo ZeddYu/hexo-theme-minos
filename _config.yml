@@ -1,0 +1,72 @@
+# Website's icon url.
+favicon: /favicon.png
+
+# Open Graph metadata (https://hexo.io/docs/helpers.html#open-graph)
+open_graph:
+  twitter_id:
+  twitter_site:
+  google_plus:
+  fb_admins:
+  fb_app_id:
+
+# Website's logo shown on the left of the navigation bar.
+# It can either be an url to an image or a string if the following option is set.
+# logo:
+#   text: <logo string>
+logo: https://s.gravatar.com/avatar/204a0c779acdb62f9084826396f6dccb?s=80
+
+article:
+  # Show word count and estimated reading time.
+  readtime: true
+  # Code highlight theme, please see https://highlightjs.org/static/demo/
+  highlight: atom-one-light
+
+# Navigation bar menu links.
+menu:
+  Archives: /archives
+  Categories: /categories
+  Tags: /tags
+  Friends: /friends
+
+# Search plugin settings.
+search:
+  type: insight
+
+# Navigation bar toc settings
+toc: true
+
+# Share plugin settings.
+# share:
+#   type: sharethis
+#   install_url: //platform-api.sharethis.com/js/sharethis.js#property=5c92001c994b8c0011c71206&product=inline-share-buttons
+
+# Comment plugin settings.
+comment:
+  type: disqus
+  shortname: ZeddYu
+
+# Other plugins and their settings.
+plugins:
+  mathjax: true
+  katex: false
+  gallery: true
+  clipboard: true
+  google-analytics:
+    tracking_id: UA-112937997-1
+
+# Additional navigation bar links on the right.
+# Links can either be text or icon. The following link is set to be an icon link whose icon
+# is set to the class name of a FontAwesome 5 icon. The `footer_links` below also gives an
+# example of setting plain text links.
+navbar_links:
+  GitHub:
+    icon: fab fa-github
+    url: https://github.com/ZeddYu
+  RSS:
+    icon: fas fa-rss
+    url: https://blog.zeddyu.info/atom.xml
+
+# Links at the bottom of the page.
+footer_links:
+  GitHub: https://github.com/ZeddYu
+  RSS: https://blog.zeddyu.info/atom.xml
