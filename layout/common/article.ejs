@@ -33,6 +33,7 @@
             <a href="<%- url_for(post.path) %>#more"><%= __('article.read_more') %></a>
         </p>
     <% } else { %>
+        <%- toc(post.content) %>
         <%- post.content %>
     <% } %>
     </div>
