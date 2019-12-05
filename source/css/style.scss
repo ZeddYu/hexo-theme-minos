@@ -46,6 +46,10 @@ a.tag.article-tag {
     }
 }
 
+.toc ol, .toc li{
+    list-style: none;
+}
+
 .article {
     & + .article {
         padding-top: 2rem;
