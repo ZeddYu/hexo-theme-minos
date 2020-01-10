@@ -17,6 +17,10 @@ article:
   words: 'words'
   comments: 'Comments'
   contents: 'Contents'
+  author: 'Article Author'
+  link: 'Article Link'
+  copyright: 'Copyright Notice'
+  cp_content: "With the exception of the special statement at the beginning of the article, all articles can be reprinted in accordance with the CC BY 4.0 agreement with the author's permission."
 search:
   hint: 'Type something...'
 insight:

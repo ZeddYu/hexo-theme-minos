@@ -45,8 +45,11 @@
     </div>
     <% } %>
     <% if (!index && (post.prev || post.next)) { %>
+    <hr>
     <blockquote class="colorquote info">
-        <p>版权声明：除文章开头有特殊声明的情况外，所有文章在取得作者允许授权转载的情况下，均可在遵从 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="noopener">CC BY 4.0</a> 协议的情况下转载。</p>
+        <p><%= __('article.author') %>: Zeddy</p>
+        <p><%= __('article.link') %>: <%- url_for(url) %></p>
+        <p><%= __('article.copyright') %>: <%= __('article.cp_content') %></p>
     </blockquote>
     <div class="columns is-mobile is-multiline article-nav">
         <span class="column is-12-mobile is-half-desktop <%= !post.prev ? 'is-hidden-mobile' : '' %> article-nav-prev">

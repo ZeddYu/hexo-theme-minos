@@ -17,6 +17,10 @@ article:
   words: '字'
   comments: '评论'
   contents: '目录'
+  author: '文章作者'
+  link: '文章链接'
+  copyright: '版权声明'
+  cp_content: '除文章开头有特殊声明的情况外，所有文章在取得作者允许授权转载的情况下，均可在遵从 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="noopener">CC BY 4.0</a> 协议的情况下转载。'
 search:
   hint: '站内搜索'
 insight:
