@@ -63,11 +63,16 @@ navbar_links:
   GitHub:
     icon: fab fa-github
     url: https://github.com/ZeddYu
+  Twitter:
+    icon: fab fa-twitter
+    url: https://twitter.com/ZeddYu_Lu
   RSS:
     icon: fas fa-rss
     url: https://blog.zeddyu.info/atom.xml
+
 
 # Links at the bottom of the page.
 footer_links:
   GitHub: https://github.com/ZeddYu
   RSS: https://blog.zeddyu.info/atom.xml
+  Twitter: https://twitter.com/ZeddYu_Lu
