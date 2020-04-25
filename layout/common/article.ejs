@@ -8,14 +8,14 @@
     </h1>
     <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
         <span class="column is-narrow">
-            <svg class="icon" aria-hidden="true">
+            <svg class="iconfont" aria-hidden="true">
                 <use xlink:href="#icon-timer"></use>
             </svg>
             <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= format_date_full(post.date) %></time>
         </span>
         <% if (post.categories && post.categories.length){ %>
         <span class="column is-narrow article-category">
-            <svg class="icon" aria-hidden="true">
+            <svg class="iconfont" aria-hidden="true">
                 <use xlink:href="#icon-folder"></use>
             </svg>
             <%- (post._categories || post.categories).map(category =>
@@ -25,7 +25,7 @@
         <% } %>
         <% if (!has_config('article.readtime') || get_config('article.readtime') === true) { %>
         <span class="column is-narrow">
-            <svg class="icon" aria-hidden="true">
+            <svg class="iconfont" aria-hidden="true">
                 <use xlink:href="#icon-shalou"></use>
             </svg>
             <% let words = word_count(post._content); %>

@@ -40,7 +40,7 @@
         <div class="navbar-menu navbar-end">
             <% if (has_config('search')) { %>
             <a class="navbar-item search" title="<%= __('nav.search') %>" href="javascript:;">
-                <svg class="icon" aria-hidden="true">
+                <svg class="iconfont" aria-hidden="true">
                     <use xlink:href="#icon-sousuo"></use>
                 </svg>
             </a>
@@ -48,7 +48,7 @@
             <% if (has_config('toc') && get_config('toc') === true && typeof(page.content) !== 'undefined') { %>
             <div class="navbar-item is-hoverable has-dropdown is-hidden-mobile is-hidden-tablet-only toc">
                 <a class="navbar-item" title="<%= __('nav.toc') %>">
-                    <svg class="icon" aria-hidden="true">
+                    <svg class="iconfont" aria-hidden="true">
                         <use xlink:href="#icon-list"></use>
                     </svg>
                 </a>
@@ -72,7 +72,7 @@
                 <%= name %>
                 <% } else { %>
                 <!-- <i class="<%= link.icon %>"></i> -->
-                <svg class="icon" aria-hidden="true">
+                <svg class="iconfont" aria-hidden="true">
                     <use xlink:href="#<%= link.icon %>"></use>
                 </svg>
                 <% } %>
