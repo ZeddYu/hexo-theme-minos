@@ -2,6 +2,13 @@ $family-serif: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
 $family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
 body, button, input, select, textarea {
     font-family: $family-serif;
     font-display: swap;

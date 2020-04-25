@@ -61,13 +61,16 @@ plugins:
 # example of setting plain text links.
 navbar_links:
   GitHub:
-    icon: fab fa-github
+    # icon: fab fa-github
+    icon: icon-github
     url: https://github.com/ZeddYu
   Twitter:
-    icon: fab fa-twitter
+    # icon: fab fa-twitter
+    icon: icon-twitter
     url: https://twitter.com/ZeddYu_Lu
   RSS:
-    icon: fas fa-rss
+    # icon: fas fa-rss
+    icon: icon-rss
     url: https://blog.zeddyu.info/atom.xml
 
 
