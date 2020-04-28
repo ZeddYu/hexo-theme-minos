@@ -11,7 +11,7 @@
             <svg class="iconfont" aria-hidden="true">
                 <use xlink:href="#icon-timer"></use>
             </svg>
-            <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= format_date_full(post.date) %></time>
+            <time class="article-category-link" datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= format_date_full(post.date) %></time>
         </span>
         <% if (post.categories && post.categories.length){ %>
         <span class="column is-narrow article-category">
@@ -28,9 +28,12 @@
             <svg class="iconfont" aria-hidden="true">
                 <use xlink:href="#icon-shalou"></use>
             </svg>
-            <% let words = word_count(post._content); %>
+            <span class="article-category-link">
+                <% let words = word_count(post._content); %>
             <% let time = duration((words / 150.0) * 60, 'seconds') %>
             <%= `${ time.humanize() } ${ __('article.read')} (${ __('article.about') } ${ words } ${ __('article.words') })` %>
+            </span>
+            
         </span>
         <% } %>
     </div>
