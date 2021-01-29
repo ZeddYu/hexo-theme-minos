@@ -20,9 +20,12 @@ article:
   readtime: true
   # Code highlight theme, please see https://highlightjs.org/static/demo/
   highlight: atom-one-light
+  # Date format: relative | full | relative_full | full_relative
+  date_format: relative_full
 
 # Navigation bar menu links.
 menu:
+  Index: /
   Archives: /archives
   Categories: /categories
   Tags: /tags
