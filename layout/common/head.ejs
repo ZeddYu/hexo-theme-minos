@@ -1,6 +1,7 @@
 <meta charset="utf-8">
 <title><%= page_title() %></title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<meta name=description content="ZeddYu's Blog">
 
 <% const languages = display_languages();
 const pageLanguage = page_language(page);
@@ -38,19 +39,17 @@ if (languages.length > 1) {
 <link rel="icon" href="<%- get_config('favicon') %>">
 <% } %>
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.8.1/css/bulma.min.css">
-<script defer src="//at.alicdn.com/t/font_1780077_0ad2sbnz4nz.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.1/css/bulma.min.css">
+<script defer src="https://at.alicdn.com/t/font_1780077_0ad2sbnz4nz.js"></script>
 
 <% if (!(has_config('plugins.gallery') && get_config('plugins.gallery') === false)) { %>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js">
 <% } %>
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/<%= get_config('article.highlight', 'atom-one-light') %>.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/<%= get_config('article.highlight', 'atom-one-light') %>.min.css">
 
 <%- css('css/style') %>
-
-<!-- <script defer src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></script> -->
 
 <% if (has_config('plugins')) { %>
     <% for (let plugin in get_config('plugins')) { %>
