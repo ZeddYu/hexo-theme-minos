@@ -21,6 +21,8 @@ article:
   link: 'Article Link'
   copyright: 'Copyright Notice'
   cp_content: "With the exception of the special statement at the beginning of the article, all articles can be reprinted in accordance with the CC BY 4.0 agreement with the author's permission."
+  ad: 'Advertisement'
+  ad_content: '想了解更多有意思的国际赛 CTF 中 Web 知识技巧，欢迎加入我的知识星球：https://blog.zeddyu.info/advertisement/; 另外我正在召集一群小伙伴组建一支专注国际 CTF 的队伍，如果有感兴趣的小伙伴也可在 https://blog.zeddyu.info/advertisement/ 查看详情'
 search:
   hint: 'Type something...'
 insight:
